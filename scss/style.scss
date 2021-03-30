@@ -1,0 +1,84 @@
+
+$color: black,  saddlebrown,  rgb(197, 129, 40), rgb(17, 17, 17); 
+
+%h2extend {
+    font-family: 'Brygada 1918', serif;
+font-size: 30px;
+text-align: left;
+border: 5px solid black;
+}
+
+%animacion {
+transform: translatex(10px);
+transition: all 1s;
+}
+
+@mixin body ($fontsize, $textindent) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: ($fontsize);
+    text-indent: ($textindent);
+    text-align: center;
+}
+
+%footerextend{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.h2  {
+
+    @extend %h2extend; 
+    color: nth($color, 4);
+background-color: nth($color, 3);
+
+}
+
+.us, .prod, .contact { 
+
+    color: nth($color, 2);
+    @include body(20px, 40px);
+}
+
+.footer  {
+
+@extend %footerextend;
+background-color: nth($color, 4);
+height: 60px;
+}
+
+
+        
+    .prod {
+    
+    margin-top: 200px;
+    
+    }
+    
+    .cima {
+    
+        width: 100%;
+        overflow: hidden;
+        height: 500px;
+    }
+    
+    .comments {
+    
+    resize: none;
+    
+    } 
+    
+    .logo:hover{
+    
+    @extend %animacion
+    
+    } 
+    
+    
+    .menu {
+    
+    display: flex;
+    justify-content: flex-end;
+    
+    }
+    

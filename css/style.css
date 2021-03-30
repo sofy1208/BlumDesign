@@ -1,0 +1,102 @@
+.subtitle {
+  font-family: "Brygada 1918", serif;
+color: rgb(235, 210, 178);
+font-size: 35px;
+text-align: left;
+}
+
+.h2 {
+  font-family: "Brygada 1918", serif;
+  font-size: 30px;
+  text-align: left;
+  border: 5px solid black;
+}
+
+.h2 {
+  color: #111111;
+  background-color: #c58128;
+}
+
+
+/*Menu*/
+
+.logo:hover {
+  transform: translatex(10px);
+  transition: all 1s;
+}
+
+.logo {
+
+  height: 100px;
+  width: 100px;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.homeimag {
+
+  height: 600px;
+  width: 100%;
+}
+
+
+/*Secciones*/
+
+.us, .prod, .contact {
+  color: saddlebrown;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-indent: 40px;
+  text-align: center;
+}
+
+
+.prod {
+  margin-top: 200px;
+}
+
+.cima {
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+}
+
+.comments {
+  resize: none;
+}
+
+
+
+/*Footer*/
+
+.footer {
+  background-color: #111111;
+  height: 60px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face, .insta {
+
+  height: 20px;
+  width: 20px;
+}
+
+.mail {
+
+  height: 20px;
+  width: 40px;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
