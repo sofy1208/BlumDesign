@@ -1,24 +1,11 @@
-.subtitle {
+/*NAV BAR*/
+
+h1 {
   font-family: "Brygada 1918", serif;
-color: rgb(235, 210, 178);
-font-size: 35px;
-text-align: left;
+  font-size: 40px;
+  text-align: center;
+  color: #c58128;
 }
-
-.h2 {
-  font-family: "Brygada 1918", serif;
-  font-size: 30px;
-  text-align: left;
-  border: 5px solid black;
-}
-
-.h2 {
-  color: #111111;
-  background-color: #c58128;
-}
-
-
-/*Menu*/
 
 .logo:hover {
   transform: translatex(10px);
@@ -27,24 +14,46 @@ text-align: left;
 
 .logo {
 
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
 }
 
 .menu {
   display: flex;
   justify-content: flex-end;
+  height: 100px;
 }
+
+/*IMAGEN HOME*/
 
 .homeimag {
 
-  height: 600px;
+  height: 400px;
   width: 100%;
+
 }
 
+/*SECCIONES*/
 
-/*Secciones*/
+h2 {
+  font-family: "Brygada 1918", serif;
+  font-size: 30px;
+  text-align: left;
+  border: 5px solid black;
+}
+
+h2 {
+  color: #111111;
+  background-color: #c58128;
+  height: 80px;
+}
 
 .us, .prod, .contact {
   color: saddlebrown;
@@ -54,10 +63,27 @@ text-align: left;
   text-align: center;
 }
 
+/*PRODUCTO IMAGEN ANIMACION*/
 
 .prod {
   margin-top: 200px;
 }
+
+.imagprod {
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+}
+
+
+.imagprod:hover{
+
+  transform: translateX(25px);
+  transition: all 2s;
+
+}
+
+/*CONTACTO IMAGEN ANIMACION*/
 
 .cima {
   width: 100%;
@@ -65,19 +91,28 @@ text-align: left;
   height: 500px;
 }
 
+.cima:hover{
+
+  transform: translateX(-15px);
+  transition: all 2s;
+
+}
+
+/*CONTACTO CUADRO TEXTO MENSAJE*/
+
 .comments {
   resize: none;
 }
 
-
-
-/*Footer*/
+.comments  {
+  margin-top: 30px;
+}
+/*FOOTER*/
 
 .footer {
   background-color: #111111;
-  height: 60px;
+  height: 80px;
 }
-
 
 .footer {
   display: flex;
@@ -85,18 +120,20 @@ text-align: left;
   align-items: center;
 }
 
+
 .face, .insta {
 
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
+
 }
 
 .mail {
 
-  height: 20px;
-  width: 40px;
-}
+  height: 40px;
+  width: 60px;
 
+}
 
 
 /*# sourceMappingURL=style.css.map */
